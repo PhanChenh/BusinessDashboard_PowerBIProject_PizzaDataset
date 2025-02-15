@@ -189,3 +189,7 @@ By implementing these strategies, the business can enhance operational efficienc
 
 Feel free to fork, open issues, or suggest improvements!
 
+📧 Email: pearriperri@gmail.com
+
+🔗 [LinkedIn](https://www.linkedin.com/in/phan-chenh-6a7ba127a/) | Portfolio
+
