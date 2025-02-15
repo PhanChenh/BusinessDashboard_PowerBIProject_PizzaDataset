@@ -185,3 +185,7 @@ Secondary recommendations that support long-term growth include:
 
 By implementing these strategies, the business can enhance operational efficiency, improve customer satisfaction, and maximize revenue.
 
+## 📬 Contact & Contributions
+
+Feel free to fork, open issues, or suggest improvements!
+
