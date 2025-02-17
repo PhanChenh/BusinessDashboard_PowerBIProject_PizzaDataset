@@ -36,15 +36,40 @@ The analysis was conducted using Power BI, leveraging data preparation, modeling
 
 1. Data Preparation: Data was sourced, cleaned, and transformed to ensure accuracy.
 
-2. Data Modeling & ERD: Relationships between tables were established, creating a clear structure to link tables together as seen in [pizza_ERD]()
+2. Data Modeling & ERD: Relationships between tables were established, creating a clear structure to link tables together as seen in [pizza_ERD](pizza_ERD.png)
 
 3. DAX Calculations: Key metrics like total sales, product performance, peak times, and ingredient usage were calculated using DAX. For example, measures were created to identify peak sales periods, rank products, and calculate ingredient usage.
 
-Power BI Dashboards: Interactive visualizations were created to explore sales trends, product performance, and customer behavior, with dynamic filtering options for deeper insights.
+4. Power BI Dashboards: Interactive visualizations were created to explore sales trends, product performance, and customer behavior, with dynamic filtering options for deeper insights.
 
-Interpretation and Insights: Data-driven insights were drawn to identify trends, such as peak sales times, popular products, and customer preferences, revealing opportunities for growth and optimization.
+5. Interpretation and Insights: Data-driven insights were drawn to identify trends, such as peak sales times, popular products, and customer preferences, revealing opportunities for growth and optimization.
 
-Recommendations: Based on the findings, strategic recommendations were made, including optimizing pricing, refining the product menu, adjusting operational hours, and leveraging cross-selling opportunities to maximize revenue.
+6. Recommendations: Based on the findings, strategic recommendations were made, including optimizing pricing, refining the product menu, adjusting operational hours, and leveraging cross-selling opportunities to maximize revenue.
+
+## Key Findings
+- Sales Trends: Revenue peaks occur in July and November, driven by holidays, while Sundays and Mondays consistently underperform. Sales are highest between 11 AM–1 PM and 5 PM–7 PM.
+
+- Product Performance: Supreme and Classic pizzas are the top performers, while products like Big Meat S and Brie Carre show potential for expansion into additional sizes.
+
+- Customer Behavior: Evening sales are dominated by multi-orders, suggesting a preference for group dining, while individual pizzas perform well at lunchtime.
+
+- Ingredient Usage: Garlic, tomatoes, and red onions are the most frequently used ingredients, indicating their importance in the menu. Pizzas with 5–6 ingredients tend to perform best.
+
+- Cross-Selling Opportunities: Products like Big Meat S pair well with larger pizzas, offering opportunities for effective cross-selling.
+
+## How to use
+1.  Loading the dashboard (pbix file) in Power BI
+- Open Power BI Desktop and go to File > Open to load the existing dashboard ([my_dashboard.pbix](PhanChenh_pizza_business_dashboard.pbix)) from the repository.
+
+## Technologies Used
+- Power BI: Used for data visualization and report creation. Various charts, graphs, and slicers were implemented to analyze key supply chain metrics.
+- DAX (Data Analysis Expressions): Used to calculate important metrics like total sales, quantity, order, muilti and single order.
+
+## Results & Visualizations
+
+![BIsalesAnalysis](https://github.com/user-attachments/assets/8d67c86c-7979-48ae-990e-8890c18ada82)
+Figure 1: Sales Trend Analysis
+
 
 -----
 ## Findings and Analysis
