@@ -103,7 +103,7 @@ Findings:
 
 ![Screenshot 2025-02-10 124117](https://github.com/user-attachments/assets/94d6ac5d-2e3e-4704-9811-5f3f8ae6b952)
 
-Figure 3: Top 10 most common pizza combinations
+Figure 3: Top 10 most common pizza combinations (graph from [pythoncode](pizaCombination.ipynb)
 
 ![BIcustomer](https://github.com/user-attachments/assets/a9130c93-00c0-48cd-8f54-b3a5499728f0)
 
