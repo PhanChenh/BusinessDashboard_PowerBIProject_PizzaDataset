@@ -143,7 +143,7 @@ Findings:
   + Classic Pizzas: Most popular with 5 ingredients, focusing on simplicity.
 - Price Sensitivity: Chicken, Supreme, and Veggie pizzas sell better at higher prices, while Classic pizzas see a sales drop as prices increase. Classic pizzas also experience reduced quantity at higher prices.
 
-## Recommendations
+## Recommendation
 Based on the analysis, the following strategies should be prioritized:
 1.	Operating Hours Optimization:
 -	Focus on peak sales times (11 AM–1 PM, 5 PM–7 PM). Open slightly earlier on Fridays, Saturdays, and holidays (10:30 AM). Reevaluate closures on Mondays and low-sales Sundays.
