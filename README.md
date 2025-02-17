@@ -70,143 +70,78 @@ The analysis was conducted using Power BI, leveraging data preparation, modeling
 ![BIsalesAnalysis](https://github.com/user-attachments/assets/8d67c86c-7979-48ae-990e-8890c18ada82)
 Figure 1: Sales Trend Analysis
 
+Findings:
+- High-Performance Periods:
+  + Monthly Peaks: July and November lead with strong sales due to holidays (Independence Day, Thanksgiving, Black Friday).
+  + Weekly Peaks: Week 48 (November) and Week 27 (June–July) show high sales around key events.
+  + Weekday Trends: Fridays drive the highest sales (~$136.1K), followed by Thursdays and Saturdays.
+  + Peak Hours: Sales are highest from 11 AM–1 PM and 5 PM–7 PM.
 
------
-## Findings and Analysis
+- Low-Performance Periods:
+  + Monthly Lulls: October, September, December, and February show lower sales due to closures and shorter periods.
+  + Weekday Lulls: Sundays consistently underperform with ~$99.2K in sales.
+  + Early Hours: Sales are minimal (around ~$83 at 9 AM), showing early openings have limited impact.
 
-### A.	Sales trend analysis
-1. Descriptive Metrics
--	Total Sales: $817.86K
--	Total Quantity Sold: 49,574 units
--	Total Orders: 21,350
+![Screenshot 2025-02-17 231829](https://github.com/user-attachments/assets/166204c6-c714-40e8-a8bb-135d9d75f548)
 
-Average Sales:
-- Per Month: ~$68.2K
-- Per Week: ~$15.4K
-- Per Day: ~$2.2K
-- By Weekday: ~$116.8K
-  
-2.	High-Performance Periods
-
-By Month:
-- July: ~$72.6K, driven by Independence Day activities.
-- November: ~$70.4K, coinciding with Thanksgiving and Black Friday.
-- May and March also show strong performance due to holidays like St. Patrick’s Day and Cesaz Chavez Day.
-
-By Week:
-- Week 48 (November): ~$19.2K, corresponding with Black Friday.
-- Week 27 (June–July): ~$17.5K, around Independence Day.
-
-By Weekday:
-- Highest sales on Fridays (~$136.1K), followed by Thursdays and Saturdays.
-
-3.	Low-Performance Periods
-
-By Month:
-- October: ~$64K, impacted by consistent closures on Mondays.
-- September: ~$64.2K, affected by Yom Kippur closures.
-- December: ~$64.7K, affected by Christmas closures.
-- February: ~$65.2K, shorter month with fewer sales day
-
-By Weekday:
-- Lowest sales on Sundays (~$99.2K).
-
-4.	Operational Patterns
-
-Peak Hours:
-- 11 AM–1 PM: Sales peak at ~$87.6K.
-- 5 PM–7 PM: Consistent strong performance ~$82.7K.
-
-Lowest Sales Hours:
-- Early hours (9–10 AM) generate minimal revenue (~$83 for 9AM, ~$303 total across 7 days at 10 AM).
-
-Closures:
-- Days off (e.g., 25/12/2015 for Christmas, 24–25/9/2015 for Yom Kippur).
-
-Irregular Openings:
-- Opening at 9 AM or 10 AM results in negligible sales increases.
-
-![BIsalesAnalysis](https://github.com/user-attachments/assets/8d67c86c-7979-48ae-990e-8890c18ada82)
-Figure 1: Sales Trend Analysis
-
-### B.	Product performance analysis
-1.	Overview of Product Portfolio
--	Pizza Categories: Classic, Supreme, Chicken, Veggie
--	Number of Pizza Types: 32
--	Pizza Size-Types: 91 unique combinations
-2.	Category Performance
--	Top Categories: The classic and supreme categories rank highest in both sales and quantity, with classic consistently leading across both metrics.
--	Chicken and Veggie: While chicken slightly outperforms veggie in sales, veggie surpasses chicken in terms of quantity sold, indicating balanced customer demand for both price and volume.
-3.	Performance of 32 Pizza Types
--	High Sales, Low Quantity: Pizzas like California Chicken and Spicy Italian generate high sales but have relatively low quantity sold, suggesting a premium pricing strategy that appeals to a smaller, more targeted audience.
--	Low Sales, High Quantity: Hawaiian and Pepperoni are sold in large quantities but generate relatively lower sales. This could indicate customer preference for lower-priced, higher-volume pizzas.
-4.	Pizza Size and Sales Performance:
--	General Trend: Large (L) pizzas dominate sales across categories, followed by medium (M) and small (S).
--	Category-Specific: Chicken, Veggie, and Supreme: L > M > S reflects a preference for sharing-sized options. Classic: Small (S) leads, followed by large (L), medium (M), XL, and XXL, suggesting individual or small-group consumption.
--	XL and XXL Sizes: Only available in the classic category, they underperform due to perceived value or portion size mismatch.
-![BIproduct](https://github.com/user-attachments/assets/73fe5533-c33d-4614-8eaa-80087200d9fa)
 Figure 2: Product Performance Analysis
 
-### C.	Customer purchase analysis
-1.	Orders behaviour and peak time insights
--	Customers prefer multi-orders (61.6%) over single orders (38.4%), indicating that groups or families are a key customer segment
--	The restaurant experiences two distinct peak times, each with different customer behaviours:
+Findings:
+- Top Product Categories: Classic and Supreme pizzas consistently outperform in both sales and quantity, with Classic leading in both metrics.
 
-    First Peak Time (e.g., lunch breaks): Single orders dominate, indicating that these customers are likely individuals looking for quick meals, such as during work or lunch breaks.
-    
-    Second Peak Time (e.g., evening family dinners): Multi-orders dominate, suggesting that group dining or family dinners are more common during this time, where customers order multiple pizzas to share.
-2.	Pizza size preferences
--	From Small to Larger sizes (S, M, L) are the preferred choice across all 4 categories, indicating they are popular for group or sharing situations.
--	Bigger sizes (XL, XXL) in Classic underperforming. This may be due to perceived value or portion size mismatch for this pizza type.
-3.	Performance of 91 Pizza Type-Size Combinations
--	Pizzas like Five cheese L, four cheese L and M, big meat S generate high sales but only has a few sizes. Get to know customers preference and their portion to add more size. Adding sizes might attract customers looking for personal portions or a lower price point. This could increase overall sales if there's demand for these sizes.
--	Pizza like Greek pizza with XXL has low sales but other sizes sales not bad. 
--	Green Garden pizza: Despite offering three sizes, Green Garden has weak overall sales. Focus efforts on promoting the size S, which leads in demand.
--	Brie Carre: Despite being available only in size S, it has achieved strong sales (~$11.6K). This suggests potential for expansion to larger sizes (M, L) to increase overall sales.
-4.	Top 10 Common Pizza Combinations
--	Big Meat S consistently appears in the majority of top pizza combinations, indicates that customers are favouring it as a single pizza choice, especially when combined with larger-sized pizzas for group or family orders. However, Big Meat only has 1 size only, if it has more size then the revenue might increase since the demand is high. 
--	The consistent pairing of Big Meat S with larger pizzas (L and M sizes) suggests that customers often opt for a combination of individual servings (Big Meat S) along with larger pizzas for sharing.
+- Balanced Demand for Chicken and Veggie: Chicken slightly outperforms Veggie in sales, but Veggie has a higher quantity sold, indicating a balanced demand for both higher-priced and higher-volume options.
+
+- Sales vs. Quantity Dynamics:
+
+  + High Sales, Low Quantity: Premium pizzas like California Chicken and Spicy Italian attract a targeted audience with higher pricing.
+  + Low Sales, High Quantity: Hawaiian and Pepperoni pizzas are popular due to lower pricing, driving higher quantities sold.
+
+- Size Preferences:
+
+  + Large (L) Dominates: L-sized pizzas are most popular across most categories, except for Classic, where Small (S) leads, indicating preferences for individual vs. group consumption.
+  + XL and XXL Sizes: These sizes, available only in Classic, underperform, potentially due to value or portion mismatch with customer preferences.
 
 ![Screenshot 2025-02-10 124117](https://github.com/user-attachments/assets/94d6ac5d-2e3e-4704-9811-5f3f8ae6b952)
 
 Figure 3: Top 10 most common pizza combinations
 
 ![BIcustomer](https://github.com/user-attachments/assets/a9130c93-00c0-48cd-8f54-b3a5499728f0)
+
 Figure 4: Customer Purchase Analysis
 
-### D.	Ingredients & Price analysis
-1.	Most Used Ingredients
-The top five most used ingredients, including garlic, tomatoes, red onions, red peppers, and chicken, are integral to our highest-performing pizza types across multiple categories.
-2.	Least Used Ingredients
-The least used ingredients are predominantly found in Brie Carre pizza, which has the lowest sales and quantity.
-3.	Popular Ingredient Configurations
--	6 Ingredients (~18.2K orders): The most popular configuration, especially in Supreme pizzas. This balance between variety and simplicity makes it appealing to a wide range of customers.
--	5 Ingredients (~11.6K orders): A versatile configuration, popular across several categories, though it underperforms in Supreme pizzas.
-4.	Pizza Type Performance Insights
--	Chicken Pizzas: Typically feature 5-8 ingredients, with 6 ingredients being the most common in high-performing options. This suggests that a balance of flavour complexity and ingredient cost drives success.
--	Supreme Pizzas: These pizzas exhibit a variety of ingredient counts (3, 5, 6, 8), with 6 ingredients dominating sales. This reflects customer preferences for a balanced yet flavourful pizza.
--	Veggie Pizzas: Perform best with 5 or 8 ingredients, with 5 being the most popular. Simple, well-balanced combinations are preferred by the audience for veggie pizzas.
--	Classic Pizzas: Ranging from 2-6 ingredients, Classic pizzas are most frequently ordered with 5 ingredients, reflecting a preference for simplicity and variety.
-5.	Price Sensitivity Analysis
--	Sales Trends:
+Findings:
+- Order Behavior:
 
-    Chicken, supreme, and veggie pizzas show increased sales at higher price points.
-    
-    In contrast, classic pizzas experience reduced sales as prices rise.
--	Quantity Trends:
+  + 61.6% of orders are multi-orders, indicating group or family dining.
+  + Peak Times: Single orders dominate during lunch breaks, while multi-orders are more common in the evening.
 
-    Chicken pizzas exhibit higher quantities sold at increased prices.
-    
-    Classic pizzas see a decline in quantity with rising prices.
-    
-    Supreme and veggie pizzas maintain consistent quantities regardless of price changes.
+- Size Preferences: Small to Large sizes are most popular for sharing, while XL and XXL sizes underperform in the Classic category.
 
-![BIprice_ingredience](https://github.com/user-attachments/assets/707c01ab-6048-4000-824e-5cfde3f4fb75)
+- Pizza Type-Size Combinations:
+
+  + High-performing pizzas like Five Cheese and Big Meat S could benefit from more size options to attract a broader customer base.
+  + Green Garden Pizza performs better in Size S, while Brie Carre shows strong sales in Size S, suggesting potential for expansion to larger sizes.
+
+- Top Combinations: Big Meat S is frequently paired with larger pizzas, indicating strong demand. Expanding its size options could increase revenue.
+
+![Screenshot 2025-02-17 233504](https://github.com/user-attachments/assets/987c4d78-6a4a-4fe3-b7fe-79b69f822f2b)
+
 Figure 5: Ingredients & Price Analysis
 
-## Conclusions
+Findings:
+- Most Used Ingredients: Garlic, tomatoes, red onions, red peppers, and chicken are key to top-performing pizzas across categories.
 
-In conclusion, the analysis has revealed several key opportunities to enhance business performance, focusing on optimizing pricing, refining the menu, and adjusting operations to align with customer demand. By implementing dynamic pricing for high-performing items and adjusting operating hours to focus on peak sales periods, the business can significantly increase revenue. Additionally, menu refinement and targeted customer promotions will help meet customer preferences and boost sales during slower periods.
+- Ingredient Configurations:
+
+  + 6 Ingredients is the most popular and performs well in Supreme pizzas.
+  + 5 Ingredients is versatile but underperforms in Supreme pizzas.
+- Pizza Type Insights:
+
+  + Chicken Pizzas: Best with 6 ingredients, balancing flavor complexity and cost.
+  + Supreme Pizzas: Preferably 6 ingredients, offering a balanced, flavorful taste.
+  + Veggie Pizzas: Perform well with 5 or 8 ingredients.
+  + Classic Pizzas: Most popular with 5 ingredients, focusing on simplicity.
+- Price Sensitivity: Chicken, Supreme, and Veggie pizzas sell better at higher prices, while Classic pizzas see a sales drop as prices increase. Classic pizzas also experience reduced quantity at higher prices.
 
 ## Recommendations
 Based on the analysis, the following strategies should be prioritized:
@@ -237,18 +172,9 @@ Based on the analysis, the following strategies should be prioritized:
 9.	Holiday Adjustments: 
 -	Review closures during holidays like Yom Kippur based on local demand.
 
-
-
-Secondary recommendations that support long-term growth include:
-- Discounts or Promotions for Low-Demand Days: Introduce discounts or bundle deals on Sundays and Mondays to boost sales during slower periods.
-- Cross-Selling and Combo Deals: Offer meal bundles like “Big Meat S + Four Cheese L” to increase average order value.
-- Customer Loyalty Program: Launch a rewards program to encourage repeat purchases, especially during low-sales periods.
-
 By implementing these strategies, the business can enhance operational efficiency, improve customer satisfaction, and maximize revenue.
 
-## 📬 Contact & Contributions
-
-Feel free to fork, open issues, or suggest improvements!
+## Contact
 
 📧 Email: pearriperri@gmail.com
 
