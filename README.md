@@ -1,5 +1,27 @@
 # Project Title: Pizza Business Performance Analysis and Growth Strategies
 
+## Table of Contents
+- [Overview](#overview)
+- [Dataset](#dataset)
+- [Objective](#objective)
+- [Analysis Approach](#analysis-approach)
+- [Key Findings](#key-findings)
+- [How to Use](#how-to-use)
+- [Technologies Used](#technologies-used)
+- [Results & Visualizations](#results--visualizations)
+- [Recommendation](#recommendation)
+- [Contact](#contact)
+
+## Overview: 
+
+This report provides an in-depth analysis of sales trends, product performance, customer behavior, and ingredient usage to uncover strategic opportunities for driving revenue growth and enhancing operational efficiency. By examining patterns in sales volume, peak times, customer preferences, and ingredient consumption, we aim to align business operations with consumer demand and peak performance periods.
+
+Key findings reveal seasonal sales peaks, specific time frames with high revenue potential, and insights into customer preferences that favor group dining and certain product categories. The analysis also highlights underperforming time slots and products, offering clear opportunities for improvement. Through targeted recommendations, such as optimizing pricing strategies, adjusting operational hours, and refining the menu, this report aims to guide the business towards more efficient and profitable operations.
+
+## Dataset
+
+The analysis is based on the [data_pizza.xlxs](
+
 ## Introduction
 
 **Background:**
