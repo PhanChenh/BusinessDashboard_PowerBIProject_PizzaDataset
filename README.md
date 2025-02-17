@@ -20,17 +20,31 @@ Key findings reveal seasonal sales peaks, specific time frames with high revenue
 
 ## Dataset
 
-The analysis is based on the [data_pizza.xlxs](
-
-## Introduction
-
-**Background:**
-
-This report leverages a comprehensive analysis of sales trends, product performance, customer behavior, and ingredient usage to identify key opportunities for revenue growth and operational efficiency. The dataset used for this analysis was sourced from publicly available online datasets and incorporates various metrics, such as sales volume, order quantity, peak times, and customer preferences. The business is seeking to optimize operations, enhance its product offerings, and improve overall revenue generation, particularly by aligning strategies with customer demand patterns and peak performance periods.
+The analysis is based on the [data_pizza.xlsx](data_pizza.xlsx)
+- Time period Covered: 2015
+- Number of Record: 21288 rows
+- Number of Features: 10
+- Key Variables: according to [data_dictionary.xlsx](data_dictionary.xlsx)
 
 **Objectives:** 
 
 The primary purpose of this report is to provide actionable insights and recommendations that will help the business maximize revenue, optimize operations, and refine its product offerings. This analysis focuses on identifying areas for improvement, such as adjusting operational hours, refining the menu, implementing dynamic pricing strategies, and utilizing promotional efforts during high-demand periods. The report aims to support decision-making and guide the business in aligning its strategies with customer preferences and peak sales periods to ensure sustained growth and operational efficiency.
+
+## Analysis Approach
+
+The analysis was conducted using Power BI, leveraging data preparation, modeling, and DAX calculations. The key steps included:
+
+1. Data Preparation: Data was sourced, cleaned, and transformed to ensure accuracy.
+
+2. Data Modeling & ERD: Relationships between tables were established, creating a clear structure to link tables together as seen in [pizza_ERD]()
+
+3. DAX Calculations: Key metrics like total sales, product performance, peak times, and ingredient usage were calculated using DAX. For example, measures were created to identify peak sales periods, rank products, and calculate ingredient usage.
+
+Power BI Dashboards: Interactive visualizations were created to explore sales trends, product performance, and customer behavior, with dynamic filtering options for deeper insights.
+
+Interpretation and Insights: Data-driven insights were drawn to identify trends, such as peak sales times, popular products, and customer preferences, revealing opportunities for growth and optimization.
+
+Recommendations: Based on the findings, strategic recommendations were made, including optimizing pricing, refining the product menu, adjusting operational hours, and leveraging cross-selling opportunities to maximize revenue.
 
 -----
 ## Findings and Analysis
