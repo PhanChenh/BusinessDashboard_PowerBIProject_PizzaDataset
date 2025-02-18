@@ -6,7 +6,7 @@
 - [Objective](#objective)
 - [Analysis Approach](#analysis-approach)
 - [Key Findings](#key-findings)
-- [How to Use](#how-to-use)
+- [How to run code](#how-to-run-code)
 - [Technologies Used](#technologies-used)
 - [Results & Visualizations](#results--visualizations)
 - [Recommendation](#recommendation)
@@ -57,7 +57,7 @@ The analysis was conducted using Power BI, leveraging data preparation, modeling
 
 - Cross-Selling Opportunities: Products like Big Meat S pair well with larger pizzas, offering opportunities for effective cross-selling.
 
-## How to use
+## How to run code
 1.  Loading the dashboard (pbix file) in Power BI
 - Open Power BI Desktop and go to File > Open to load the existing dashboard ([my_dashboard.pbix](PhanChenh_pizza_business_dashboard.pbix)) from the repository.
 
