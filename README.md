@@ -26,7 +26,7 @@ The analysis is based on the [data_pizza.xlsx](data_pizza.xlsx)
 - Number of Features: 10
 - Key Variables: according to [data_dictionary.xlsx](data_dictionary.xlsx)
 
-## Objectives
+## Objective
 
 The primary purpose of this report is to provide actionable insights and recommendations that will help the business maximize revenue, optimize operations, and refine its product offerings. This analysis focuses on identifying areas for improvement, such as adjusting operational hours, refining the menu, implementing dynamic pricing strategies, and utilizing promotional efforts during high-demand periods. The report aims to support decision-making and guide the business in aligning its strategies with customer preferences and peak sales periods to ensure sustained growth and operational efficiency.
 
