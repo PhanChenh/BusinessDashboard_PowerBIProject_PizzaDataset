@@ -68,7 +68,8 @@ The analysis was conducted using Power BI, leveraging data preparation, modeling
 
 ## Results & Visualizations
 
-![BIsalesAnalysis](https://github.com/user-attachments/assets/8d67c86c-7979-48ae-990e-8890c18ada82)
+![Screenshot 2025-02-22 155408](https://github.com/user-attachments/assets/53ba1705-bc0f-44df-a560-9925739aabf8)
+
 Figure 1: Sales Trend Analysis
 
 Findings:
@@ -83,7 +84,7 @@ Findings:
   + Weekday Lulls: Sundays consistently underperform with ~$99.2K in sales.
   + Early Hours: Sales are minimal (around ~$83 at 9 AM), showing early openings have limited impact.
 
-![Screenshot 2025-02-17 231829](https://github.com/user-attachments/assets/166204c6-c714-40e8-a8bb-135d9d75f548)
+![Screenshot 2025-02-22 155421](https://github.com/user-attachments/assets/b9f34e8a-33ce-48e9-b3db-8ba7e8bc2d11)
 
 Figure 2: Product Performance Analysis
 
@@ -106,7 +107,7 @@ Findings:
 
 Figure 3: Top 10 most common pizza combinations (graph from [pythoncode](pizaCombination.ipynb))
 
-![BIcustomer](https://github.com/user-attachments/assets/a9130c93-00c0-48cd-8f54-b3a5499728f0)
+![Screenshot 2025-02-22 155435](https://github.com/user-attachments/assets/ca00e0ff-540e-4916-a9ea-c83827752e86)
 
 Figure 4: Customer Purchase Analysis
 
@@ -125,7 +126,7 @@ Findings:
 
 - Top Combinations: Big Meat S is frequently paired with larger pizzas, indicating strong demand. Expanding its size options could increase revenue.
 
-![Screenshot 2025-02-17 233504](https://github.com/user-attachments/assets/987c4d78-6a4a-4fe3-b7fe-79b69f822f2b)
+![Screenshot 2025-02-22 155543](https://github.com/user-attachments/assets/dddaeeac-f4b5-4e7b-9153-f614f897d592)
 
 Figure 5: Ingredients & Price Analysis
 
