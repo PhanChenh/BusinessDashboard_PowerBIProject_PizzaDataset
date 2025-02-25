@@ -68,6 +68,8 @@ The analysis was conducted using Power BI, leveraging data preparation, modeling
 
 ## Results & Visualizations
 
+Interactive Dashboard: [PizzaBusiness_Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYzljNWJiYTMtNDllMy00ZjJhLThmNzgtODA1NTllZTVhNjMxIiwidCI6IjFkYTAyNjFjLTQ1ZjktNGI5MS04N2JiLTlkMGUzNzJlMmYwNiJ9)
+
 ![Screenshot 2025-02-22 155408](https://github.com/user-attachments/assets/53ba1705-bc0f-44df-a560-9925739aabf8)
 
 Figure 1: Sales Trend Analysis
